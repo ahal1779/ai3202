@@ -225,7 +225,7 @@ def calcConditional(node,dep,nodeNegative,depNegative):
 					second= calcConditional(node, nodeParent, nodeNegative, "~")
 					nprob = 1-prob
 					inter1=float(first*prob)
-					inter2=float(second*nprop)
+					inter2=float(second*nprob)
 					sum1=inter1+inter2
 
 					return sum1
